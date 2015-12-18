@@ -20,7 +20,7 @@ def to_base_q(base10, baseQ):
         str_forward += str_append
         x = (x - int(str_append))/baseQ
         
-    return str_forward[::-1]
+    return int(str_forward[::-1])
 
 
 number = int(raw_input("Number to convert: "))
